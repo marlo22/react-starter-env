@@ -1,4 +1,6 @@
 # My React Starter Environment
+Great place to start creating new React application without worry about ejecting. If you are looking for ``react-starter-env`` with configured Redux check [this branch](https://github.com/marlo22/react-starter-env/tree/redux).
+
 ## What contain this?
 * Module bundler of course. (webpack).
 * Transpiling ES6 to ES5 and JSX to JavaScript (Babel).

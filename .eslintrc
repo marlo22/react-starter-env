@@ -1,5 +1,7 @@
 {
   "extends": ["airbnb"],
+  "parser": "babel-eslint",
+  "plugins": ["babel"],
   "globals": {
     "document": false,
     "window": false

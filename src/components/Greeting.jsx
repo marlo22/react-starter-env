@@ -5,17 +5,11 @@ import { addItem, removeItem } from '../actions/items';
 
 /*  eslint-disable react/prop-types */
 class Greeting extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      itemToAdd: '',
-    };
-
-    this.addItem = this.addItem.bind(this);
+  state = {
+    itemToAdd: '',
   }
 
-  addItem() {
+  addItem = () => {
     this.props.addItem(this.state.itemToAdd);
     this.setState({ itemToAdd: '' });
   }
